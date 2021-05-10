@@ -2,7 +2,7 @@ import React from 'react'
 import {getData} from "./ListEarthquakes";
 import data from '../../data'
 
-function detail(props) {
+function Detail(props) {
     const dataInfo = data().data.features
     return (
         <div>
@@ -49,4 +49,4 @@ function detail(props) {
     )
 }
 
-export default detail;
+export default Detail;
