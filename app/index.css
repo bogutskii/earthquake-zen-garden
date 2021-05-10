@@ -1,0 +1,57 @@
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ededed;
+    height: 120px;
+}
+
+.header-title {
+    color: #777777;
+}
+
+.logo {
+    width: 60px;
+    margin: 20px;
+}
+
+.header-link {
+    margin: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.title-h {
+    color: #444444;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.td-nowrap {
+    white-space: nowrap
+}
+
+.bold {
+    font-weight: bold
+}
+
+.center-text {
+    text-align: center;
+}
+
+.link {
+    color: #0011bb;
+}
+
+.link:visited {
+    color: #6600cc;
+}
