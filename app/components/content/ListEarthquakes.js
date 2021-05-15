@@ -21,14 +21,13 @@ function ListEarthquakes(props) {
     return (
 
         <div>
-            <button onClick={() => sortList()}>bbb</button>
             <h1 className="title-h">{props.title}</h1>
             <table>
                 <tbody>
                 <tr>
-                    <td className="center-text" onClick={() => sortList('place')}>Title</td>
-                    <td className="center-text" onClick={() => sortList('mag')}> Magnitude</td>
-                    <td className="center-text" onClick={() => sortList('time')}> Time</td>
+                    <td className="center-text pointer" onClick={() => sortList('place')}>Title</td>
+                    <td className="center-text pointer" onClick={() => sortList('mag')}> Magnitude</td>
+                    <td className="center-text pointer" onClick={() => sortList('time')}> Time</td>
                 </tr>
                 {
                     [...props.features].sort((a, b) => typeSorting.direction ?
